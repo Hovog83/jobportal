@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,500italic,700,900,300italic,400italic,600italic,700italic,900italic);
+.padLeft0 {
+    padding-left: 0 !important;
+}
+.adminCont h3 {
+    margin-top: 0;  
+    margin-bottom: 0;
+}
+.margauto {
+    margin: 0 auto;
+    float: none;
+}
+.adminCont {
+    overflow: hidden;
+    padding: 30px 0 50px 0;
+}
+.editUserBox div.checkbox {
+    margin-top: -12px;
+}
+.usersTbl td {
+    word-break: break-word;
+}
+.titleBox {
+    overflow: hidden;
+}
+.titleBox p {
+    margin: 0;
+    color: #7a7679;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.adminCont hr {
+    margin-top: 10px;
+}
+.spansInblock > span{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.spansInblock > span.col-sm-3:nth-child(4n+4):after{
+    content: "";
+    clear: both;
+    display: table;
+}
+img{
+    max-width: 100%;
+}
+
+.basic_profile h2{
+    margin-top: 70px;
+    color: #2498c3;
+    font-size: 36.57px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 21px;
+    position: relative;
+    font-family: Roboto;
+}
+.basic_profile h2:before {
+    content: "";
+    width: 4px;
+    height: 36px;
+    color: #2498c3;
+    background-color: #2498c3;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.mB20{
+    margin-bottom: 20px;
+}
+.txtR{
+    text-align: right;
+}
+.basic_profile .btn.delete{
+    margin-left: 1%;
+    float: right;
+    width: 31%;
+}
+.col-sm-3 .fileLink{
+    float: left;
+    text-align: right;
+    width: 67%;
+    word-wrap: break-word;
+}

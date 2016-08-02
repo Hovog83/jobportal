@@ -1,0 +1,1 @@
+<?php echo $this->Form->input('tag_string', ['type' => 'text']); ?>
